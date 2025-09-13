@@ -11,6 +11,12 @@ document.addEventListener("DOMContentLoaded", () => {
     canvas.height = canvas.clientHeight;
     drawText();
   };
+  
+  const styleMap = {
+    'ams-afrin': { fontFamily: 'AMS Afrin', fileUrl: './fonts/AMS_Afrin.ttf' },
+    'ams-aakash': { fontFamily: 'AMS Aakash', fileUrl: './fonts/AMS_Aakash.ttf' },
+    'ams-aakul': { fontFamily: 'AMS Aakul', fileUrl: './fonts/AMS_Aakul.ttf' },
+};
 
   const drawText = () => {
     const text = textInput.value || "ગુજરાતી અક્ષર કળા";
