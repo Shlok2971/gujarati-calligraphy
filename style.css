@@ -1,0 +1,31 @@
+body {
+  font-family: 'Noto Sans Gujarati', sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+/* ✅ Fonts from local /fonts folder */
+@font-face {
+  font-family: 'AMS Afrin';
+  src: url('./fonts/AMS_Afrin.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'AMS Aakash';
+  src: url('./fonts/AMS_Aakash.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'AMS Aakul';
+  src: url('./fonts/AMS_Aakul.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'AMS Aaditya';
+  src: url('./fonts/AMS_Aaditya.ttf') format('truetype');
+}
+
+canvas {
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  width: 100%;
+  height: 400px;
+}
