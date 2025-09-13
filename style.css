@@ -9,18 +9,26 @@ body {
 @font-face {
   font-family: 'AMS Afrin';
   src: url('fonts/AMS_Afrin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: 'AMS Aakash';
   src: url('fonts/AMS_Aakash.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: 'AMS Aakul';
   src: url('fonts/AMS_Aakul.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: 'AMS Aaditya';
   src: url('fonts/AMS_Aaditya.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 canvas {
